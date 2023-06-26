@@ -5,9 +5,9 @@ const Home = () => {
     <>
       {/* Full Page */}
 
-      <div className="flex flex-row h-screen w-full border-2 border-red-400 bg-black text-white">
+      <div className="flex flex-row w-full bg-black text-white ">
         {/* Navigation bar */}
-        <aside className="h-screen w-3/12 border-2 border-blue-400 pl-28">
+        <aside className="w-3/12 pl-28 h-full">
           <div className="flex flex-col h-screen">
             <div className="w-full h-16   flex flex-flow items-center">
               {/* <i className="fa-brands fa-twitter text-3xl"></i> */}
@@ -98,12 +98,12 @@ const Home = () => {
         </aside>
 
         {/* Middle Section */}
-        <div className="w-6/12 border-2 border-black"></div>
+        <div className="w-6/12 border-2 border-gray-600"></div>
 
         {/* Search Section */}
-        <div className="h-screen w-3/12 border-2 border-yellow-500 flex flex-col justify-evenly items-start pl-10">
+        <div className="w-3/12 pl-10 h-full">
           {/* searchBar */}
-          <div className="w-4/5 h-12 rounded-full flex justify-evenly items-center truncate bg-gray-900">
+          <div className="w-4/5 h-12 rounded-full flex justify-evenly items-center truncate bg-gray-900 mt-4 mb-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -115,19 +115,179 @@ const Home = () => {
               <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
             </svg>
 
-            <input type="search" placeholder="Search" className="w-4/5 h-4/5 border-none bg-transparent outline-none"/>
+            <input
+              type="search"
+              placeholder="Search"
+              className="w-4/5 h-4/5 border-none bg-transparent outline-none"
+            />
           </div>
 
           {/* Verified */}
-          <div className="border-2 border-white w-4/5 h-32 rounded-2xl flex flex-col justify-evenly pl-3">
+          <div className="bg-gray-900 w-4/5 h-32 rounded-2xl flex flex-col justify-evenly pl-3 mt-4 mb-4">
             <p className="text-2xl font-bold">Get Verified</p>
             <p className="font-semibold">Subscribe to unlock new features.</p>
-            <button className="">Get Verified</button>
+            <button className="w-32 rounded-full h-10 bg-blue-500 hover:bg-blue-600">
+              Get Verified
+            </button>
           </div>
 
+          {/* what happing  */}
+          <div className="w-4/5 rounded-2xl flex flex-col justify-evenly  bg-gray-900 mt-4 mb-4">
+            <h1 className="px-4 font-bold text-lg mt-2 mb-2">Whats's happing</h1>
 
-          <div className="border-2 border-white"></div>
-          <div className="border-2 border-white"></div>
+            <div className=" h-18 hover:bg-gray-950 px-3 rounded-lg cursor-pointer mt-2 mb-2">
+              <div className="flex justify-between">
+                <p className="font-thin">Trending in India</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="#ffffff"
+                  viewBox="0 0 256 256"
+                  className="hover:bg-gray-700 rounded-full"
+                >
+                  <path d="M128,96a32,32,0,1,0,32,32A32,32,0,0,0,128,96Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,128,144ZM48,96a32,32,0,1,0,32,32A32,32,0,0,0,48,96Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,48,144ZM208,96a32,32,0,1,0,32,32A32,32,0,0,0,208,96Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,208,144Z"></path>
+                </svg>
+              </div>
+              <p className="font-bold">#Something</p>
+              <p className="font-extralight">No. of twittes</p>
+            </div>
+
+            <div className=" h-18  hover:bg-gray-950 px-3 rounded-lg cursor-pointer mt-2 mb-2">
+              <div className="flex justify-between">
+                <p className="font-thin">Trending in India</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="#ffffff"
+                  viewBox="0 0 256 256"
+                  className="hover:bg-gray-700 rounded-full"
+                >
+                  <path d="M128,96a32,32,0,1,0,32,32A32,32,0,0,0,128,96Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,128,144ZM48,96a32,32,0,1,0,32,32A32,32,0,0,0,48,96Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,48,144ZM208,96a32,32,0,1,0,32,32A32,32,0,0,0,208,96Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,208,144Z"></path>
+                </svg>
+              </div>
+              <p className="font-bold">#Something</p>
+              <p className="font-extralight">No. of twittes</p>
+            </div>
+
+            <div className="h-18  hover:bg-gray-950 px-3 rounded-lg cursor-pointer mt-2 mb-2">
+              <div className="flex justify-between">
+                <p className="font-thin">Trending in India</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="#ffffff"
+                  viewBox="0 0 256 256"
+                  className="hover:bg-gray-700 rounded-full"
+                >
+                  <path d="M128,96a32,32,0,1,0,32,32A32,32,0,0,0,128,96Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,128,144ZM48,96a32,32,0,1,0,32,32A32,32,0,0,0,48,96Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,48,144ZM208,96a32,32,0,1,0,32,32A32,32,0,0,0,208,96Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,208,144Z"></path>
+                </svg>
+              </div>
+              <p className="font-bold">#Something</p>
+              <p className="font-extralight">No. of twittes</p>
+            </div>
+
+            <div className=" h-18  hover:bg-gray-950 px-3 rounded-lg cursor-pointer mt-2 mb-2">
+              <div className="flex justify-between">
+                <p className="font-thin">Trending in India</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="#ffffff"
+                  viewBox="0 0 256 256"
+                  className="hover:bg-gray-700 rounded-full"
+                >
+                  <path d="M128,96a32,32,0,1,0,32,32A32,32,0,0,0,128,96Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,128,144ZM48,96a32,32,0,1,0,32,32A32,32,0,0,0,48,96Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,48,144ZM208,96a32,32,0,1,0,32,32A32,32,0,0,0,208,96Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,208,144Z"></path>
+                </svg>
+              </div>
+              <p className="font-bold">#Something</p>
+              <p className="font-extralight">No. of twittes</p>
+            </div>
+
+            <div className=" h-18  hover:bg-gray-950 px-3 rounded-lg cursor-pointer mt-2 mb-2">
+              <div className="flex justify-between">
+                <p className="font-thin">Trending in India</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="#ffffff"
+                  viewBox="0 0 256 256"
+                  className="hover:bg-gray-700 rounded-full"
+                >
+                  <path d="M128,96a32,32,0,1,0,32,32A32,32,0,0,0,128,96Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,128,144ZM48,96a32,32,0,1,0,32,32A32,32,0,0,0,48,96Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,48,144ZM208,96a32,32,0,1,0,32,32A32,32,0,0,0,208,96Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,208,144Z"></path>
+                </svg>
+              </div>
+              <p className="font-bold">#Something</p>
+              <p className="font-extralight">No. of twittes</p>
+            </div>
+
+            <p className="px-3 text-blue-500 hover:text-blue-700 hover:bg-gray-950 cursor-pointer mt-2 mb-2 h-10 flex items-center">Show More</p>
+          </div>
+
+          {/* Who to follow */}
+          <div className=" w-4/5 mt-4 mb-4 rounded-xl flex flex-col justify-evenly bg-gray-900">
+            <h1 className="mt-2 mb-2 px-4 font-bold text-xl">Who to follow</h1>
+
+            {/* followers */}
+            <div className="flex justify-evenly items-center h-14  self-center w-full mt-2 mb-2 hover:bg-gray-950 hover:rounded-lg cursor-pointer px-2">
+              {/* Profile Pics */}
+              <div className="border-2 border-white w-1/5 h-12 rounded-full">
+                {/* profile image */}
+              </div>
+              {/* Name and Email */}
+              <div className=" w-2/4 h-full">
+                <p>Sonu sood</p>
+                <p>@sonuSood</p>
+              </div>
+              {/* follow button */}
+              <button className="border-2 border-white w-1/4 h-8 rounded-2xl text-black bg-white font-semibold">Follow</button>
+            </div>
+
+            <div className="flex justify-evenly items-center h-14  self-center w-full mt-2 mb-2  hover:bg-gray-950 hover:rounded-lg cursor-pointer px-2">
+              {/* Profile Pics */}
+              <div className="border-2 border-white w-1/5 h-12 rounded-full">
+                {/* profile image */}
+              </div>
+              {/* Name and Email */}
+              <div className=" w-2/4 h-full">
+                <p>Sonu sood</p>
+                <p>@sonuSood</p>
+              </div>
+              {/* follow button */}
+              <button className="border-2 border-white w-1/4 h-8 rounded-2xl text-black bg-white font-semibold">Follow</button>
+            </div>
+
+            <div className="flex justify-evenly items-center h-14  self-center w-full mt-2 mb-2  hover:bg-gray-950 hover:rounded-lg cursor-pointer px-2">
+              {/* Profile Pics */}
+              <div className="border-2 border-white w-1/5 h-12 rounded-full">
+                {/* profile image */}
+              </div>
+              {/* Name and Email */}
+              <div className=" w-2/4 h-full">
+                <p>Sonu sood</p>
+                <p>@sonuSood</p>
+              </div>
+              {/* follow button */}
+              <button className="border-2 border-white w-1/4 h-8 rounded-2xl text-black bg-white font-semibold">Follow</button>
+            </div>
+
+            <p className="text-blue-500 px-4 py-2  hover:bg-gray-950 hover:rounded-lg cursor-pointer mb-2 hover:text-blue-700">Show more</p>
+          </div>
+
+          {/* Footer */}
+          <div className=" h-20 w-4/5 mb-24 flex flex-wrap text-sm font-light">
+            <p className="ml-2 mr-2 hover:underline decoration-solid cursor-pointer">Terms of Services</p>
+            <p className="ml-2 mr-2 hover:underline decoration-solid cursor-pointer">Privacy Policy</p>
+            <p className="ml-2 mr-2 hover:underline decoration-solid cursor-pointer">Cookie Policy</p>
+            <p className="ml-2 mr-2 hover:underline decoration-solid cursor-pointer">Assibility</p>
+            <p className="ml-2 mr-2 hover:underline decoration-solid cursor-pointer">Ads info</p>
+            <p className="ml-2 mr-2 hover:underline decoration-solid cursor-pointer">More...</p>
+            <p className="ml-6 mr-6 cursor-pointer">&copy; 2023 X Corp.</p>
+          </div>
         </div>
       </div>
     </>
