@@ -114,7 +114,7 @@ const Home = () => {
             </div>
           </div>
 
-          {/* Post */}
+          {/* Add Post */}
           <div className="h-56 border-b-2 border-gray-600">
             {/* post top */}
             <div className="h-3/4 flex ">
@@ -123,7 +123,7 @@ const Home = () => {
 
               <div className="w-5/6 mx-2 flex flex-col justify-evenly">
                 {/* Everyone */}
-                <div className="flex border-2 w-fit rounded-full px-2">
+                <div className="flex border-2 w-fit rounded-full px-2 cursor-pointer">
                   <p className="text-blue-400 font-bold">Everyone</p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -164,79 +164,73 @@ const Home = () => {
               <div className="w-4/5 h-full flex justify-between items-center px-1">
                 {/* icons */}
                 <div className="w-80 h-10 flex justify-evenly items-center">
-                  <div className="h-8 w-9 flex items-center justify-center hover:bg-gray-900 rounded-full p-2">
+                  <div className="h-8 w-9 flex items-center justify-center hover:bg-gray-900 rounded-full p-2 cursor-pointer">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
                       fill="#1d9bf0"
                       viewBox="0 0 256 256"
-                      
                     >
                       <path d="M144,96a16,16,0,1,1,16,16A16,16,0,0,1,144,96Zm92-40V200a20,20,0,0,1-20,20H40a20,20,0,0,1-20-20V56A20,20,0,0,1,40,36H216A20,20,0,0,1,236,56ZM44,60v79.72l33.86-33.86a20,20,0,0,1,28.28,0L147.31,147l17.18-17.17a20,20,0,0,1,28.28,0L212,149.09V60Zm0,136H162.34L92,125.66l-48,48Zm168,0V183l-33.37-33.37L164.28,164l32,32Z"></path>
                     </svg>
                   </div>
                   {/* picture */}
-                  <div className="h-8 w-9 flex items-center justify-center hover:bg-gray-900 rounded-full p-2">
+                  <div className="h-8 w-9 flex items-center justify-center hover:bg-gray-900 rounded-full p-2 cursor-pointer">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
                       fill="#1d9bf0"
                       viewBox="0 0 256 256"
-                      
                     >
                       <path d="M148,72V184a12,12,0,0,1-24,0V72a12,12,0,0,1,24,0Zm76,12a12,12,0,0,0,0-24H176a12,12,0,0,0-12,12V184a12,12,0,0,0,24,0V140h28a12,12,0,0,0,0-24H188V84ZM96,116H72a12,12,0,0,0,0,24H84v12a20,20,0,0,1-40,0V104A20,20,0,0,1,64,84,21.8,21.8,0,0,1,82.35,94.22a12,12,0,0,0,20.53-12.44A45.67,45.67,0,0,0,64,60a44.05,44.05,0,0,0-44,44v48a44,44,0,0,0,88,0V128A12,12,0,0,0,96,116Z"></path>
                     </svg>
                   </div>
                   {/* Gif */}
-                  <div className="h-8 w-9 flex items-center justify-center hover:bg-gray-900 rounded-full p-2">
+                  <div className="h-8 w-9 flex items-center justify-center hover:bg-gray-900 rounded-full p-2 cursor-pointer">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
                       fill="#1d9bf0"
                       viewBox="0 0 256 256"
-                      
                     >
                       <path d="M228,216a12,12,0,0,1-12,12H40a12,12,0,0,1,0-24H216A12,12,0,0,1,228,216Zm-92-48V80a20,20,0,0,1,20-20h36a20,20,0,0,1,20,20v88a20,20,0,0,1-20,20H156A20,20,0,0,1,136,168Zm24-4h28V84H160ZM44,168V40A20,20,0,0,1,64,20h36a20,20,0,0,1,20,20V168a20,20,0,0,1-20,20H64A20,20,0,0,1,44,168Zm24-4H96V44H68Z"></path>
                     </svg>
                   </div>
                   {/* Smile */}
-                  <div className="h-8 w-9 flex items-center justify-center hover:bg-gray-900 rounded-full p-2">
+                  <div className="h-8 w-9 flex items-center justify-center hover:bg-gray-900 rounded-full p-2 cursor-pointer">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
                       fill="#1d9bf0"
                       viewBox="0 0 256 256"
-                     
                     >
                       <path d="M178.39,158c-11,19.06-29.39,30-50.39,30s-39.36-10.93-50.39-30a12,12,0,0,1,20.78-12c3.89,6.73,12.91,18,29.61,18s25.72-11.28,29.61-18a12,12,0,1,1,20.78,12ZM236,128A108,108,0,1,1,128,20,108.12,108.12,0,0,1,236,128Zm-24,0a84,84,0,1,0-84,84A84.09,84.09,0,0,0,212,128ZM92,124a16,16,0,1,0-16-16A16,16,0,0,0,92,124Zm72-32a16,16,0,1,0,16,16A16,16,0,0,0,164,92Z"></path>
                     </svg>
                   </div>
                   {/* Schedule */}
-                  <div className="h-8 w-9 flex items-center justify-center hover:bg-gray-900 rounded-full p-2">
+                  <div className="h-8 w-9 flex items-center justify-center hover:bg-gray-900 rounded-full p-2 cursor-pointer">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
                       fill="#1d9bf0"
                       viewBox="0 0 256 256"
-                    
                     >
                       <path d="M208,28H188V24a12,12,0,0,0-24,0v4H92V24a12,12,0,0,0-24,0v4H48A20,20,0,0,0,28,48V208a20,20,0,0,0,20,20H208a20,20,0,0,0,20-20V48A20,20,0,0,0,208,28ZM68,52a12,12,0,0,0,24,0h72a12,12,0,0,0,24,0h16V76H52V52ZM52,204V100H204V204Zm60-80v56a12,12,0,0,1-24,0V143.32a12,12,0,0,1-9.37-22l16-8A12,12,0,0,1,112,124Zm61.49,33.88L163.9,168H168a12,12,0,0,1,0,24H136a12,12,0,0,1-8.71-20.25L155.45,142a4,4,0,0,0,.55-2,4,4,0,0,0-7.47-2,12,12,0,0,1-20.78-12A28,28,0,0,1,180,140a27.77,27.77,0,0,1-5.64,16.86A10.63,10.63,0,0,1,173.49,157.88Z"></path>
                     </svg>
                   </div>
                   {/* Location */}
-                  <div className="h-8 w-9 flex items-center justify-center hover:bg-gray-900 rounded-full p-2">
+                  <div className="h-8 w-9 flex items-center justify-center hover:bg-gray-900 rounded-full p-2 cursor-pointer">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
                       fill="#1d9bf0"
                       viewBox="0 0 256 256"
-                     
                     >
                       <path d="M128,60a44,44,0,1,0,44,44A44.05,44.05,0,0,0,128,60Zm0,64a20,20,0,1,1,20-20A20,20,0,0,1,128,124Zm0-112a92.1,92.1,0,0,0-92,92c0,77.36,81.64,135.4,85.12,137.83a12,12,0,0,0,13.76,0,259,259,0,0,0,42.18-39C205.15,170.57,220,136.37,220,104A92.1,92.1,0,0,0,128,12Zm31.3,174.71A249.35,249.35,0,0,1,128,216.89a249.35,249.35,0,0,1-31.3-30.18C80,167.37,60,137.31,60,104a68,68,0,0,1,136,0C196,137.31,176,167.37,159.3,186.71Z"></path>
                     </svg>
@@ -246,6 +240,459 @@ const Home = () => {
                 <button className="w-24 rounded-full h-10 bg-blue-600 hover:bg-blue-800">
                   Tweet
                 </button>
+              </div>
+            </div>
+          </div>
+
+          {/* Post Section */}
+          <div className="border-b-2 border-gray-600">
+            <div className=" h-14 flex justify-evenly items-center">
+              {/* logo */}
+              <div className="border-2 w-12 rounded-full h-12"></div>
+              <div className=" w-11/12 h-12">
+                <div className="flex justify-between">
+                  <div className="flex font-thin">
+                    <p className="px-1">Nitin Agaraewal</p>
+                    <p className="px-1">@nitinagarwalINC</p>
+                    <p className="px-1">.18h</p>
+                  </div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="#585d5f"
+                    viewBox="0 0 256 256"
+                    className="hover:rounded-full hover:bg-gray-900 cursor-pointer"
+                  >
+                    <path d="M128,96a32,32,0,1,0,32,32A32,32,0,0,0,128,96Zm0,40a8,8,0,1,1,8-8A8,8,0,0,1,128,136Zm80-40a32,32,0,1,0,32,32A32,32,0,0,0,208,96Zm0,40a8,8,0,1,1,8-8A8,8,0,0,1,208,136ZM48,96a32,32,0,1,0,32,32A32,32,0,0,0,48,96Zm0,40a8,8,0,1,1,8-8A8,8,0,0,1,48,136Z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <p className="font-semibold">
+                    Great meeting you{" "}
+                    <strong className="text-blue-500 cursor-pointer">
+                      @timburchett !
+                    </strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* post image */}
+            <div className=" h-80 flex justify-center items-center">
+              <div className="border-2 border-gray-800 w-10/12 h-5/6 rounded-2xl"></div>
+            </div>
+            {/* votes */}
+            <div className=" h-12 flex justify-center items-center">
+              <div className=" w-10/12 h-10 flex justify-evenly items-center">
+                {/* commemnts */}
+                <div className=" w-16 h-8 flex items-center justify-evenly ">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#2f353f"
+                    viewBox="0 0 256 256"
+                    className="hover:text-blue-500 cursor-pointer"
+                  >
+                    <path d="M128,20A108,108,0,0,0,31.85,177.23L21,209.66A20,20,0,0,0,46.34,235l32.43-10.81A108,108,0,1,0,128,20Zm0,192a84,84,0,0,1-42.06-11.27,12,12,0,0,0-6-1.62,12.1,12.1,0,0,0-3.8.62l-29.79,9.93,9.93-29.79a12,12,0,0,0-1-9.81A84,84,0,1,1,128,212Z"></path>
+                  </svg>
+                  <p className="text-gray-600 hover:text-blue-500 cursor-pointer">1348</p>
+                </div>
+
+                {/* repost */}
+                <div className=" w-16 h-8 flex items-center justify-evenly">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#2f353f"
+                    viewBox="0 0 256 256"
+                    className=""
+                  >
+                    <path d="M224.49,184.49l-48,48a12,12,0,0,1-17,0l-48-48a12,12,0,1,1,17-17L156,195V88a44,44,0,0,0-88,0v88a12,12,0,0,1-24,0V88a68,68,0,0,1,136,0V195l27.51-27.52a12,12,0,0,1,17,17Z"></path>
+                  </svg>
+                  <p className="text-gray-600 hover:text-green-400 cursor-pointer">1348</p>
+                </div>
+
+                {/* likes */}
+                <div className=" w-16 h-8 flex items-center justify-evenly">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#2f353f"
+                    viewBox="0 0 256 256"
+                  >
+                    <path d="M178,28c-20.09,0-37.92,7.93-50,21.56C115.92,35.93,98.09,28,78,28A66.08,66.08,0,0,0,12,94c0,72.34,105.81,130.14,110.31,132.57a12,12,0,0,0,11.38,0C138.19,224.14,244,166.34,244,94A66.08,66.08,0,0,0,178,28Zm-5.49,142.36A328.69,328.69,0,0,1,128,202.16a328.69,328.69,0,0,1-44.51-31.8C61.82,151.77,36,123.42,36,94A42,42,0,0,1,78,52c17.8,0,32.7,9.4,38.89,24.54a12,12,0,0,0,22.22,0C145.3,61.4,160.2,52,178,52a42,42,0,0,1,42,42C220,123.42,194.18,151.77,172.51,170.36Z"></path>
+                  </svg>
+                  <p className="text-gray-600 hover:text-pink-600 cursor-pointer">1348</p>
+                </div>
+
+                {/* poles */}
+                <div className=" w-16 h-8 flex items-center justify-evenly">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#2f353f"
+                    viewBox="0 0 256 256"
+                  >
+                    <path d="M224,196h-4V40a12,12,0,0,0-12-12H152a12,12,0,0,0-12,12V76H96A12,12,0,0,0,84,88v36H48a12,12,0,0,0-12,12v60H32a12,12,0,0,0,0,24H224a12,12,0,0,0,0-24ZM164,52h32V196H164Zm-56,48h32v96H108ZM60,148H84v48H60Z"></path>
+                  </svg>
+                  <p className="text-gray-600 hover:text-blue-400 cursor-pointer">1348</p>
+                </div>
+
+                {/* upload */}
+                <div className=" w-16 h-8 flex items-center justify-evenly">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#2f353f"
+                    viewBox="0 0 256 256"
+                  >
+                    <path d="M228,152v56a20,20,0,0,1-20,20H48a20,20,0,0,1-20-20V152a12,12,0,0,1,24,0v52H204V152a12,12,0,0,1,24,0ZM96.49,88.49,116,69v83a12,12,0,0,0,24,0V69l19.51,19.52a12,12,0,0,0,17-17l-40-40a12,12,0,0,0-17,0l-40,40a12,12,0,0,0,17,17Z"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="border-b-2 border-gray-600">
+            <div className=" h-14 flex justify-evenly items-center">
+              {/* logo */}
+              <div className="border-2 w-12 rounded-full h-12"></div>
+              <div className=" w-11/12 h-12">
+                <div className="flex justify-between">
+                  <div className="flex font-thin">
+                    <p className="px-1">Nitin Agaraewal</p>
+                    <p className="px-1">@nitinagarwalINC</p>
+                    <p className="px-1">.18h</p>
+                  </div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="#585d5f"
+                    viewBox="0 0 256 256"
+                    className="hover:rounded-full hover:bg-gray-900 cursor-pointer"
+                  >
+                    <path d="M128,96a32,32,0,1,0,32,32A32,32,0,0,0,128,96Zm0,40a8,8,0,1,1,8-8A8,8,0,0,1,128,136Zm80-40a32,32,0,1,0,32,32A32,32,0,0,0,208,96Zm0,40a8,8,0,1,1,8-8A8,8,0,0,1,208,136ZM48,96a32,32,0,1,0,32,32A32,32,0,0,0,48,96Zm0,40a8,8,0,1,1,8-8A8,8,0,0,1,48,136Z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <p className="font-semibold">
+                    Great meeting you{" "}
+                    <strong className="text-blue-500 cursor-pointer">
+                      @timburchett !
+                    </strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* post image */}
+            <div className=" h-80 flex justify-center items-center">
+              <div className="border-2 border-gray-800 w-10/12 h-5/6 rounded-2xl"></div>
+            </div>
+            {/* votes */}
+            <div className=" h-12 flex justify-center items-center">
+              <div className=" w-10/12 h-10 flex justify-evenly items-center">
+                {/* commemnts */}
+                <div className=" w-16 h-8 flex items-center justify-evenly ">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#2f353f"
+                    viewBox="0 0 256 256"
+                    className="hover:text-blue-500 cursor-pointer"
+                  >
+                    <path d="M128,20A108,108,0,0,0,31.85,177.23L21,209.66A20,20,0,0,0,46.34,235l32.43-10.81A108,108,0,1,0,128,20Zm0,192a84,84,0,0,1-42.06-11.27,12,12,0,0,0-6-1.62,12.1,12.1,0,0,0-3.8.62l-29.79,9.93,9.93-29.79a12,12,0,0,0-1-9.81A84,84,0,1,1,128,212Z"></path>
+                  </svg>
+                  <p className="text-gray-600 hover:text-blue-500 cursor-pointer">1348</p>
+                </div>
+
+                {/* repost */}
+                <div className=" w-16 h-8 flex items-center justify-evenly">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#2f353f"
+                    viewBox="0 0 256 256"
+                    className=""
+                  >
+                    <path d="M224.49,184.49l-48,48a12,12,0,0,1-17,0l-48-48a12,12,0,1,1,17-17L156,195V88a44,44,0,0,0-88,0v88a12,12,0,0,1-24,0V88a68,68,0,0,1,136,0V195l27.51-27.52a12,12,0,0,1,17,17Z"></path>
+                  </svg>
+                  <p className="text-gray-600 hover:text-green-400 cursor-pointer">1348</p>
+                </div>
+
+                {/* likes */}
+                <div className=" w-16 h-8 flex items-center justify-evenly">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#2f353f"
+                    viewBox="0 0 256 256"
+                  >
+                    <path d="M178,28c-20.09,0-37.92,7.93-50,21.56C115.92,35.93,98.09,28,78,28A66.08,66.08,0,0,0,12,94c0,72.34,105.81,130.14,110.31,132.57a12,12,0,0,0,11.38,0C138.19,224.14,244,166.34,244,94A66.08,66.08,0,0,0,178,28Zm-5.49,142.36A328.69,328.69,0,0,1,128,202.16a328.69,328.69,0,0,1-44.51-31.8C61.82,151.77,36,123.42,36,94A42,42,0,0,1,78,52c17.8,0,32.7,9.4,38.89,24.54a12,12,0,0,0,22.22,0C145.3,61.4,160.2,52,178,52a42,42,0,0,1,42,42C220,123.42,194.18,151.77,172.51,170.36Z"></path>
+                  </svg>
+                  <p className="text-gray-600 hover:text-pink-600 cursor-pointer">1348</p>
+                </div>
+
+                {/* poles */}
+                <div className=" w-16 h-8 flex items-center justify-evenly">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#2f353f"
+                    viewBox="0 0 256 256"
+                  >
+                    <path d="M224,196h-4V40a12,12,0,0,0-12-12H152a12,12,0,0,0-12,12V76H96A12,12,0,0,0,84,88v36H48a12,12,0,0,0-12,12v60H32a12,12,0,0,0,0,24H224a12,12,0,0,0,0-24ZM164,52h32V196H164Zm-56,48h32v96H108ZM60,148H84v48H60Z"></path>
+                  </svg>
+                  <p className="text-gray-600 hover:text-blue-400 cursor-pointer">1348</p>
+                </div>
+
+                {/* upload */}
+                <div className=" w-16 h-8 flex items-center justify-evenly">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#2f353f"
+                    viewBox="0 0 256 256"
+                  >
+                    <path d="M228,152v56a20,20,0,0,1-20,20H48a20,20,0,0,1-20-20V152a12,12,0,0,1,24,0v52H204V152a12,12,0,0,1,24,0ZM96.49,88.49,116,69v83a12,12,0,0,0,24,0V69l19.51,19.52a12,12,0,0,0,17-17l-40-40a12,12,0,0,0-17,0l-40,40a12,12,0,0,0,17,17Z"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="border-b-2 border-gray-600">
+            <div className=" h-14 flex justify-evenly items-center">
+              {/* logo */}
+              <div className="border-2 w-12 rounded-full h-12"></div>
+              <div className=" w-11/12 h-12">
+                <div className="flex justify-between">
+                  <div className="flex font-thin">
+                    <p className="px-1">Nitin Agaraewal</p>
+                    <p className="px-1">@nitinagarwalINC</p>
+                    <p className="px-1">.18h</p>
+                  </div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="#585d5f"
+                    viewBox="0 0 256 256"
+                    className="hover:rounded-full hover:bg-gray-900 cursor-pointer"
+                  >
+                    <path d="M128,96a32,32,0,1,0,32,32A32,32,0,0,0,128,96Zm0,40a8,8,0,1,1,8-8A8,8,0,0,1,128,136Zm80-40a32,32,0,1,0,32,32A32,32,0,0,0,208,96Zm0,40a8,8,0,1,1,8-8A8,8,0,0,1,208,136ZM48,96a32,32,0,1,0,32,32A32,32,0,0,0,48,96Zm0,40a8,8,0,1,1,8-8A8,8,0,0,1,48,136Z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <p className="font-semibold">
+                    Great meeting you{" "}
+                    <strong className="text-blue-500 cursor-pointer">
+                      @timburchett !
+                    </strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* post image */}
+            <div className=" h-80 flex justify-center items-center">
+              <div className="border-2 border-gray-800 w-10/12 h-5/6 rounded-2xl"></div>
+            </div>
+            {/* votes */}
+            <div className=" h-12 flex justify-center items-center">
+              <div className=" w-10/12 h-10 flex justify-evenly items-center">
+                {/* commemnts */}
+                <div className=" w-16 h-8 flex items-center justify-evenly ">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#2f353f"
+                    viewBox="0 0 256 256"
+                    className="hover:text-blue-500 cursor-pointer"
+                  >
+                    <path d="M128,20A108,108,0,0,0,31.85,177.23L21,209.66A20,20,0,0,0,46.34,235l32.43-10.81A108,108,0,1,0,128,20Zm0,192a84,84,0,0,1-42.06-11.27,12,12,0,0,0-6-1.62,12.1,12.1,0,0,0-3.8.62l-29.79,9.93,9.93-29.79a12,12,0,0,0-1-9.81A84,84,0,1,1,128,212Z"></path>
+                  </svg>
+                  <p className="text-gray-600 hover:text-blue-500 cursor-pointer">1348</p>
+                </div>
+
+                {/* repost */}
+                <div className=" w-16 h-8 flex items-center justify-evenly">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#2f353f"
+                    viewBox="0 0 256 256"
+                    className=""
+                  >
+                    <path d="M224.49,184.49l-48,48a12,12,0,0,1-17,0l-48-48a12,12,0,1,1,17-17L156,195V88a44,44,0,0,0-88,0v88a12,12,0,0,1-24,0V88a68,68,0,0,1,136,0V195l27.51-27.52a12,12,0,0,1,17,17Z"></path>
+                  </svg>
+                  <p className="text-gray-600 hover:text-green-400 cursor-pointer">1348</p>
+                </div>
+
+                {/* likes */}
+                <div className=" w-16 h-8 flex items-center justify-evenly">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#2f353f"
+                    viewBox="0 0 256 256"
+                  >
+                    <path d="M178,28c-20.09,0-37.92,7.93-50,21.56C115.92,35.93,98.09,28,78,28A66.08,66.08,0,0,0,12,94c0,72.34,105.81,130.14,110.31,132.57a12,12,0,0,0,11.38,0C138.19,224.14,244,166.34,244,94A66.08,66.08,0,0,0,178,28Zm-5.49,142.36A328.69,328.69,0,0,1,128,202.16a328.69,328.69,0,0,1-44.51-31.8C61.82,151.77,36,123.42,36,94A42,42,0,0,1,78,52c17.8,0,32.7,9.4,38.89,24.54a12,12,0,0,0,22.22,0C145.3,61.4,160.2,52,178,52a42,42,0,0,1,42,42C220,123.42,194.18,151.77,172.51,170.36Z"></path>
+                  </svg>
+                  <p className="text-gray-600 hover:text-pink-600 cursor-pointer">1348</p>
+                </div>
+
+                {/* poles */}
+                <div className=" w-16 h-8 flex items-center justify-evenly">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#2f353f"
+                    viewBox="0 0 256 256"
+                  >
+                    <path d="M224,196h-4V40a12,12,0,0,0-12-12H152a12,12,0,0,0-12,12V76H96A12,12,0,0,0,84,88v36H48a12,12,0,0,0-12,12v60H32a12,12,0,0,0,0,24H224a12,12,0,0,0,0-24ZM164,52h32V196H164Zm-56,48h32v96H108ZM60,148H84v48H60Z"></path>
+                  </svg>
+                  <p className="text-gray-600 hover:text-blue-400 cursor-pointer">1348</p>
+                </div>
+
+                {/* upload */}
+                <div className=" w-16 h-8 flex items-center justify-evenly">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#2f353f"
+                    viewBox="0 0 256 256"
+                  >
+                    <path d="M228,152v56a20,20,0,0,1-20,20H48a20,20,0,0,1-20-20V152a12,12,0,0,1,24,0v52H204V152a12,12,0,0,1,24,0ZM96.49,88.49,116,69v83a12,12,0,0,0,24,0V69l19.51,19.52a12,12,0,0,0,17-17l-40-40a12,12,0,0,0-17,0l-40,40a12,12,0,0,0,17,17Z"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="border-b-2 border-gray-600">
+            <div className=" h-14 flex justify-evenly items-center">
+              {/* logo */}
+              <div className="border-2 w-12 rounded-full h-12"></div>
+              <div className=" w-11/12 h-12">
+                <div className="flex justify-between">
+                  <div className="flex font-thin">
+                    <p className="px-1">Nitin Agaraewal</p>
+                    <p className="px-1">@nitinagarwalINC</p>
+                    <p className="px-1">.18h</p>
+                  </div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="#585d5f"
+                    viewBox="0 0 256 256"
+                    className="hover:rounded-full hover:bg-gray-900 cursor-pointer"
+                  >
+                    <path d="M128,96a32,32,0,1,0,32,32A32,32,0,0,0,128,96Zm0,40a8,8,0,1,1,8-8A8,8,0,0,1,128,136Zm80-40a32,32,0,1,0,32,32A32,32,0,0,0,208,96Zm0,40a8,8,0,1,1,8-8A8,8,0,0,1,208,136ZM48,96a32,32,0,1,0,32,32A32,32,0,0,0,48,96Zm0,40a8,8,0,1,1,8-8A8,8,0,0,1,48,136Z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <p className="font-semibold">
+                    Great meeting you{" "}
+                    <strong className="text-blue-500 cursor-pointer">
+                      @timburchett !
+                    </strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* post image */}
+            <div className=" h-80 flex justify-center items-center">
+              <div className="border-2 border-gray-800 w-10/12 h-5/6 rounded-2xl"></div>
+            </div>
+            {/* votes */}
+            <div className=" h-12 flex justify-center items-center">
+              <div className=" w-10/12 h-10 flex justify-evenly items-center">
+                {/* commemnts */}
+                <div className=" w-16 h-8 flex items-center justify-evenly ">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#2f353f"
+                    viewBox="0 0 256 256"
+                    className="hover:text-blue-500 cursor-pointer"
+                  >
+                    <path d="M128,20A108,108,0,0,0,31.85,177.23L21,209.66A20,20,0,0,0,46.34,235l32.43-10.81A108,108,0,1,0,128,20Zm0,192a84,84,0,0,1-42.06-11.27,12,12,0,0,0-6-1.62,12.1,12.1,0,0,0-3.8.62l-29.79,9.93,9.93-29.79a12,12,0,0,0-1-9.81A84,84,0,1,1,128,212Z"></path>
+                  </svg>
+                  <p className="text-gray-600 hover:text-blue-500 cursor-pointer">1348</p>
+                </div>
+
+                {/* repost */}
+                <div className=" w-16 h-8 flex items-center justify-evenly">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#2f353f"
+                    viewBox="0 0 256 256"
+                    className=""
+                  >
+                    <path d="M224.49,184.49l-48,48a12,12,0,0,1-17,0l-48-48a12,12,0,1,1,17-17L156,195V88a44,44,0,0,0-88,0v88a12,12,0,0,1-24,0V88a68,68,0,0,1,136,0V195l27.51-27.52a12,12,0,0,1,17,17Z"></path>
+                  </svg>
+                  <p className="text-gray-600 hover:text-green-400 cursor-pointer">1348</p>
+                </div>
+
+                {/* likes */}
+                <div className=" w-16 h-8 flex items-center justify-evenly">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#2f353f"
+                    viewBox="0 0 256 256"
+                  >
+                    <path d="M178,28c-20.09,0-37.92,7.93-50,21.56C115.92,35.93,98.09,28,78,28A66.08,66.08,0,0,0,12,94c0,72.34,105.81,130.14,110.31,132.57a12,12,0,0,0,11.38,0C138.19,224.14,244,166.34,244,94A66.08,66.08,0,0,0,178,28Zm-5.49,142.36A328.69,328.69,0,0,1,128,202.16a328.69,328.69,0,0,1-44.51-31.8C61.82,151.77,36,123.42,36,94A42,42,0,0,1,78,52c17.8,0,32.7,9.4,38.89,24.54a12,12,0,0,0,22.22,0C145.3,61.4,160.2,52,178,52a42,42,0,0,1,42,42C220,123.42,194.18,151.77,172.51,170.36Z"></path>
+                  </svg>
+                  <p className="text-gray-600 hover:text-pink-600 cursor-pointer">1348</p>
+                </div>
+
+                {/* poles */}
+                <div className=" w-16 h-8 flex items-center justify-evenly">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#2f353f"
+                    viewBox="0 0 256 256"
+                  >
+                    <path d="M224,196h-4V40a12,12,0,0,0-12-12H152a12,12,0,0,0-12,12V76H96A12,12,0,0,0,84,88v36H48a12,12,0,0,0-12,12v60H32a12,12,0,0,0,0,24H224a12,12,0,0,0,0-24ZM164,52h32V196H164Zm-56,48h32v96H108ZM60,148H84v48H60Z"></path>
+                  </svg>
+                  <p className="text-gray-600 hover:text-blue-400 cursor-pointer">1348</p>
+                </div>
+
+                {/* upload */}
+                <div className=" w-16 h-8 flex items-center justify-evenly">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="#2f353f"
+                    viewBox="0 0 256 256"
+                  >
+                    <path d="M228,152v56a20,20,0,0,1-20,20H48a20,20,0,0,1-20-20V152a12,12,0,0,1,24,0v52H204V152a12,12,0,0,1,24,0ZM96.49,88.49,116,69v83a12,12,0,0,0,24,0V69l19.51,19.52a12,12,0,0,0,17-17l-40-40a12,12,0,0,0-17,0l-40,40a12,12,0,0,0,17,17Z"></path>
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
