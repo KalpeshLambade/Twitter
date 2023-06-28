@@ -115,15 +115,13 @@ const Home = () => {
           </div>
 
           {/* Post */}
-          <div className="border-2 border-white h-56">
+          <div className="h-56 border-b-2 border-gray-600">
             {/* post top */}
-            <div className="border-2 h-3/4 flex ">
+            <div className="h-3/4 flex ">
               {/* profile image */}
-              <div className="h-14 w-14 border-2 rounded-full mx-2 my-4">
+              <div className="h-14 w-14 rounded-full mx-2 my-4"></div>
 
-              </div>
-
-              <div className="w-5/6 border-2 mx-2 flex flex-col justify-evenly">
+              <div className="w-5/6 mx-2 flex flex-col justify-evenly">
                 {/* Everyone */}
                 <div className="flex border-2 w-fit rounded-full px-2">
                   <p className="text-blue-400 font-bold">Everyone</p>
@@ -146,7 +144,7 @@ const Home = () => {
                   />
                 </div>
                 {/* Everyone can replay */}
-                <div className="flex border-2 items-center">
+                <div className="flex items-center pb-3 border-b-2 border-gray-600">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
@@ -161,20 +159,93 @@ const Home = () => {
                 </div>
               </div>
             </div>
-              {/* post bottom */}
-            <div className="border-2 h-1/4 flex items-center justify-center ">
-              <div className="border-2 w-4/5 h-full flex justify-between items-center px-1">
-                 {/* icons */}
-                <div className="border-2 w-80 h-10 flex justify-evenly items-center">
-                  <div className="border-2"></div>
-                  <div className="border-2"></div>
-                  <div className="border-2"></div>
-                  <div className="border-2"></div>
-                  <div className="border-2"></div>
-                  <div className="border-2"></div>
+            {/* post bottom */}
+            <div className="h-1/4 flex items-center justify-center ">
+              <div className="w-4/5 h-full flex justify-between items-center px-1">
+                {/* icons */}
+                <div className="w-80 h-10 flex justify-evenly items-center">
+                  <div className="h-8 w-9 flex items-center justify-center hover:bg-gray-900 rounded-full p-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="#1d9bf0"
+                      viewBox="0 0 256 256"
+                      
+                    >
+                      <path d="M144,96a16,16,0,1,1,16,16A16,16,0,0,1,144,96Zm92-40V200a20,20,0,0,1-20,20H40a20,20,0,0,1-20-20V56A20,20,0,0,1,40,36H216A20,20,0,0,1,236,56ZM44,60v79.72l33.86-33.86a20,20,0,0,1,28.28,0L147.31,147l17.18-17.17a20,20,0,0,1,28.28,0L212,149.09V60Zm0,136H162.34L92,125.66l-48,48Zm168,0V183l-33.37-33.37L164.28,164l32,32Z"></path>
+                    </svg>
+                  </div>
+                  {/* picture */}
+                  <div className="h-8 w-9 flex items-center justify-center hover:bg-gray-900 rounded-full p-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="#1d9bf0"
+                      viewBox="0 0 256 256"
+                      
+                    >
+                      <path d="M148,72V184a12,12,0,0,1-24,0V72a12,12,0,0,1,24,0Zm76,12a12,12,0,0,0,0-24H176a12,12,0,0,0-12,12V184a12,12,0,0,0,24,0V140h28a12,12,0,0,0,0-24H188V84ZM96,116H72a12,12,0,0,0,0,24H84v12a20,20,0,0,1-40,0V104A20,20,0,0,1,64,84,21.8,21.8,0,0,1,82.35,94.22a12,12,0,0,0,20.53-12.44A45.67,45.67,0,0,0,64,60a44.05,44.05,0,0,0-44,44v48a44,44,0,0,0,88,0V128A12,12,0,0,0,96,116Z"></path>
+                    </svg>
+                  </div>
+                  {/* Gif */}
+                  <div className="h-8 w-9 flex items-center justify-center hover:bg-gray-900 rounded-full p-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="#1d9bf0"
+                      viewBox="0 0 256 256"
+                      
+                    >
+                      <path d="M228,216a12,12,0,0,1-12,12H40a12,12,0,0,1,0-24H216A12,12,0,0,1,228,216Zm-92-48V80a20,20,0,0,1,20-20h36a20,20,0,0,1,20,20v88a20,20,0,0,1-20,20H156A20,20,0,0,1,136,168Zm24-4h28V84H160ZM44,168V40A20,20,0,0,1,64,20h36a20,20,0,0,1,20,20V168a20,20,0,0,1-20,20H64A20,20,0,0,1,44,168Zm24-4H96V44H68Z"></path>
+                    </svg>
+                  </div>
+                  {/* Smile */}
+                  <div className="h-8 w-9 flex items-center justify-center hover:bg-gray-900 rounded-full p-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="#1d9bf0"
+                      viewBox="0 0 256 256"
+                     
+                    >
+                      <path d="M178.39,158c-11,19.06-29.39,30-50.39,30s-39.36-10.93-50.39-30a12,12,0,0,1,20.78-12c3.89,6.73,12.91,18,29.61,18s25.72-11.28,29.61-18a12,12,0,1,1,20.78,12ZM236,128A108,108,0,1,1,128,20,108.12,108.12,0,0,1,236,128Zm-24,0a84,84,0,1,0-84,84A84.09,84.09,0,0,0,212,128ZM92,124a16,16,0,1,0-16-16A16,16,0,0,0,92,124Zm72-32a16,16,0,1,0,16,16A16,16,0,0,0,164,92Z"></path>
+                    </svg>
+                  </div>
+                  {/* Schedule */}
+                  <div className="h-8 w-9 flex items-center justify-center hover:bg-gray-900 rounded-full p-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="#1d9bf0"
+                      viewBox="0 0 256 256"
+                    
+                    >
+                      <path d="M208,28H188V24a12,12,0,0,0-24,0v4H92V24a12,12,0,0,0-24,0v4H48A20,20,0,0,0,28,48V208a20,20,0,0,0,20,20H208a20,20,0,0,0,20-20V48A20,20,0,0,0,208,28ZM68,52a12,12,0,0,0,24,0h72a12,12,0,0,0,24,0h16V76H52V52ZM52,204V100H204V204Zm60-80v56a12,12,0,0,1-24,0V143.32a12,12,0,0,1-9.37-22l16-8A12,12,0,0,1,112,124Zm61.49,33.88L163.9,168H168a12,12,0,0,1,0,24H136a12,12,0,0,1-8.71-20.25L155.45,142a4,4,0,0,0,.55-2,4,4,0,0,0-7.47-2,12,12,0,0,1-20.78-12A28,28,0,0,1,180,140a27.77,27.77,0,0,1-5.64,16.86A10.63,10.63,0,0,1,173.49,157.88Z"></path>
+                    </svg>
+                  </div>
+                  {/* Location */}
+                  <div className="h-8 w-9 flex items-center justify-center hover:bg-gray-900 rounded-full p-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="#1d9bf0"
+                      viewBox="0 0 256 256"
+                     
+                    >
+                      <path d="M128,60a44,44,0,1,0,44,44A44.05,44.05,0,0,0,128,60Zm0,64a20,20,0,1,1,20-20A20,20,0,0,1,128,124Zm0-112a92.1,92.1,0,0,0-92,92c0,77.36,81.64,135.4,85.12,137.83a12,12,0,0,0,13.76,0,259,259,0,0,0,42.18-39C205.15,170.57,220,136.37,220,104A92.1,92.1,0,0,0,128,12Zm31.3,174.71A249.35,249.35,0,0,1,128,216.89a249.35,249.35,0,0,1-31.3-30.18C80,167.37,60,137.31,60,104a68,68,0,0,1,136,0C196,137.31,176,167.37,159.3,186.71Z"></path>
+                    </svg>
+                  </div>
                 </div>
                 {/* Tweet Button */}
-                <button className="w-24 rounded-full h-10 bg-blue-600 hover:bg-blue-800">Tweet</button>
+                <button className="w-24 rounded-full h-10 bg-blue-600 hover:bg-blue-800">
+                  Tweet
+                </button>
               </div>
             </div>
           </div>
