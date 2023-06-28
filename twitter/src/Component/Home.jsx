@@ -699,7 +699,7 @@ const Home = () => {
         </div>
 
         {/* Search Section */}
-        <div className="w-3/12 pl-10 h-full">
+        <div className="w-3/12 pl-10 h-full sticky top-0.5">
           {/* searchBar */}
           <div className="w-4/5 h-12 rounded-full flex justify-evenly items-center truncate bg-gray-800 mt-4 mb-4 sticky top-1">
             <svg
